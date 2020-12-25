@@ -1,10 +1,12 @@
 <template>
   <div id="app">
     <router-view/>
+    <span id="overlay"></span>
   </div>
 </template>
 
 <style>
+@import url('./assets/styles/app.css');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 
 * {
@@ -13,11 +15,6 @@
   font-weight: 700;
   font-size: 20px;
   user-select: none;
-}
-
-:root {
-  --primary: #24c915;
-  --background: #121d2c;
 }
 
 body {
