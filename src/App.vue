@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <span class="cursor"></span>
     <router-view/>
     <span id="overlay"></span>
   </div>
